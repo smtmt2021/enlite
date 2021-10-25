@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get and timeout 1`] = `[GetResTimeout: GetRes timeout]`;
+
+exports[`Get and wrong tid, then timeout 1`] = `[GetResTimeout: GetRes timeout]`;
