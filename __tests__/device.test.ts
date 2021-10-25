@@ -25,10 +25,6 @@ class DeviceTest extends Device {
   }
 }
 
-beforeAll(async () => {
-  jest.setTimeout(20 * 1000);
-});
-
 test('device response to InfC', async () => {
   const controller = new ControllerTest(CLASS.CONTROLLER);
   const address = 'fe80:0000:0000:0000:0000:0000:0000:0001';
@@ -88,7 +84,7 @@ test('Get and timeout', async () => {
   await expect(device.Get([property])).rejects.toMatchSnapshot();
   await expect(device.close()).resolves.toBeTruthy();
   await expect(controller.close()).resolves.toBeTruthy();
-});
+}, 20 * 1000);
 
 test('Get and wrong tid, then timeout', async () => {
   const controller = new ControllerTest(CLASS.CONTROLLER);
@@ -111,7 +107,7 @@ test('Get and wrong tid, then timeout', async () => {
   await expect(device.Get([property])).rejects.toMatchSnapshot();
   await expect(device.close()).resolves.toBeTruthy();
   await expect(controller.close()).resolves.toBeTruthy();
-});
+}, 20 * 1000);
 
 test('getValue(4)', async () => {
   const controller = new ControllerTest(CLASS.CONTROLLER);
