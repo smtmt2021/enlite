@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Property INSTANCE_LIST_NOTIFICATION 1`] = `"epc:D5 pdc:00 "`;
+
+exports[`Property INSTANCE_LIST_NOTIFICATION with edt 1`] = `"epc:D5 pdc:04 edt:12 34 56 78 "`;
+
+exports[`Property INSTANCE_LIST_NOTIFICATION with edt 2`] = `"epc:D5 pdc:00 "`;
+
+exports[`Property INSTANTANEOUS_ELECTRIC_ENERGY 1`] = `"epc:E7 pdc:00 "`;
+
+exports[`Property INSTANTANEOUS_ELECTRIC_ENERGY with edt 1`] = `"epc:E7 pdc:08 edt:90 AB CD EF 12 34 56 78 "`;
+
+exports[`Property INSTANTANEOUS_ELECTRIC_ENERGY with edt 2`] = `"epc:E7 pdc:00 "`;

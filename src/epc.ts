@@ -1,0 +1,14 @@
+/**
+ * @license MIT License
+ * @copyright KINOSHITA minoru, All Rights Reserved.
+ */
+export enum EPC {
+   INSTANCE_LIST_NOTIFICATION = 0xd5,
+
+   COEFFICIENT = 0xd3,
+   EFFECTIVE_DIGITS = 0xd7,
+   UNIT = 0xe1,
+   INSTANTANEOUS_ELECTRIC_ENERGY = 0xe7,
+   CUMULATIVE_AMOUNTS_OF_ENERGY_NORMAL = 0xea,
+   CUMULATIVE_AMOUNTS_OF_ENERGY_REVERSE = 0xeb
+ }
