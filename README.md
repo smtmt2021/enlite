@@ -1,4 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Node.js CI](https://github.com/smtmt2021/enlite/actions/workflows/node.js.yml/badge.svg)](https://github.com/smtmt2021/enlite/actions/workflows/node.js.yml)
 # Enlite for smart meter
 
 ```
